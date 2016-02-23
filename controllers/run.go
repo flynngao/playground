@@ -2,18 +2,12 @@ package controllers
 
 import (
   "github.com/astaxie/beego"
-  // "errors"
   "fmt"
-  // "go/parser"
-  // "go/token"
   "io/ioutil"
-  // "log"
-  // "net/http"
-  // "os"
+  "os"
   "os/exec"
   "path/filepath"
   "bufio"
-  // "time"
 )
 
 type RunController struct {

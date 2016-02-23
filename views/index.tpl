@@ -51,7 +51,15 @@
   <div id="container">
     
   <div id="wrap">
-      <textarea itemprop="description" id="code" name="code" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false"></textarea>
+      <textarea itemprop="description" id="code" name="code" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello, playground")
+}
+      </textarea>
     </div>
   <pre class="output">
     
